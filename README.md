@@ -15,7 +15,7 @@
 ### Шаг 1. Клонирование репозитория
 Используя терминал/командную строку или Git-клиент (например, GitHub Desktop):
 ```bash
-git clone [https://github.com/qwike/Clicker.git](https://github.com/qwike/Clicker.git)
+git clone https://github.com/qwike/Clicker.git
 ```
 Или кнопка «Code» -> «Open with GitHub Desktop» на странице этого репозитория.
 
