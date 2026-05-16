@@ -26,3 +26,8 @@ git clone https://github.com/qwike/Clicker.git
 4. Нажать Add Project.
 
 ### Шаг 3. Запустить проект в Unity Editor
+### Важно! Изначально проект может некорректно отображаться
+Как это исправить:
+1. В открытом Unity Editor выбрать сцену: Project -> Assets -> Scenes -> Main (двойной клик);
+2. Изменить платформу на Android: File -> Build Profiles -> в разделе Platforms выбрать Android -> кнопка Switch Platform;
+3. После этого все будет корректно отображаться.
