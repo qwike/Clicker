@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7731cbe517b1fe242baa10c1c42a34c8, type: 3}
+  m_Name: Goat
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDataF
+  enemyName: "\u041A\u043E\u0437\u0435\u043B"
+  maxHP: 1200
+  damage: 40
+  attackSpeed: 1
+  reward: 250
+  sprite: {fileID: 21300000, guid: e654913eb5e784a428346ae1d6386970, type: 3}
+  background: {fileID: 21300000, guid: 3d730d26b927ea540b33f8f395903d36, type: 3}
+  deathSound: {fileID: 8300000, guid: 7d0e2fca4faf52a4ea2577ebd23774cc, type: 3}
+  difficultyTier: 3
+  spawnRarity: 0.4
+  buffedMaxHP: 6500
+  buffedDamage: 85
+  fireAttacks: 1
+  fireDamage: 35
+  buffedFireDamage: 100

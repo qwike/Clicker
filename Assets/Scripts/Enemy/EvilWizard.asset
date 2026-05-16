@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7731cbe517b1fe242baa10c1c42a34c8, type: 3}
+  m_Name: EvilWizard
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDataF
+  enemyName: "\u0417\u043B\u043E\u0439 \u041C\u0430\u0433"
+  maxHP: 4000
+  damage: 100
+  attackSpeed: 1.2
+  reward: 1500
+  sprite: {fileID: 21300000, guid: 39a5d34e535dcc84daf64b0a71a8afba, type: 3}
+  background: {fileID: 21300000, guid: 7cf65e4248c345a4e97dd7f0337bd896, type: 3}
+  deathSound: {fileID: 8300000, guid: 2d720fc785159ba409b5dcff0a931d3a, type: 3}
+  difficultyTier: 4
+  spawnRarity: 1
+  buffedMaxHP: 5000
+  buffedDamage: 110
+  fireAttacks: 4
+  fireDamage: 35
+  buffedFireDamage: 65

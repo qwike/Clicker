@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d03b89e733204d428275eb93b6da5ef, type: 3}
+  m_Name: Slime
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: "\u0421\u043B\u0438\u0437\u043D\u044F\u043A"
+  maxHP: 10
+  damage: 1
+  attackSpeed: 1
+  reward: 1
+  sprite: {fileID: 21300000, guid: f1091af8e5fea2f4c84ae52b8eec8ef8, type: 3}
+  background: {fileID: 21300000, guid: 319f6ef84a971234c909ba64b0a42f03, type: 3}
+  deathSound: {fileID: 8300000, guid: d65aef4829e3e7346bb87c35224e11d1, type: 3}
+  difficultyTier: 0
+  spawnRarity: 1
+  buffedMaxHP: 5000
+  buffedDamage: 120

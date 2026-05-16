@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d03b89e733204d428275eb93b6da5ef, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: "\u0413\u043E\u0431\u043B\u0438\u043D"
+  maxHP: 25
+  damage: 8
+  attackSpeed: 0.5
+  reward: 15
+  sprite: {fileID: 21300000, guid: acb10d1c4beb42c4fadb9bdbd1f125aa, type: 3}
+  background: {fileID: 21300000, guid: 8150d12538e144d469b5eacb28837f83, type: 3}
+  deathSound: {fileID: 8300000, guid: 8150e4ed137c2ff44a8ba41b2f7318c9, type: 3}
+  difficultyTier: 1
+  spawnRarity: 0.6
+  buffedMaxHP: 4000
+  buffedDamage: 80

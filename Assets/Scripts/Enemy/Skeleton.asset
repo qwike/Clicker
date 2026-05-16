@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d03b89e733204d428275eb93b6da5ef, type: 3}
+  m_Name: Skeleton
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: "\u0421\u043A\u0435\u043B\u0435\u0442\u0438\u043A"
+  maxHP: 20
+  damage: 5
+  attackSpeed: 1
+  reward: 3
+  sprite: {fileID: -964824239653993824, guid: bdec3ac340138c44791a87284803ee22, type: 3}
+  background: {fileID: 21300000, guid: 38ab6603b37b54545a9aecb80728a1dc, type: 3}
+  deathSound: {fileID: 8300000, guid: 86dff50584f735941b66dcbf72c431f5, type: 3}
+  difficultyTier: 0
+  spawnRarity: 0.5
+  buffedMaxHP: 5500
+  buffedDamage: 140
