@@ -6,18 +6,20 @@ public class Boss : Enemy
 
     public override void Attack()
     {
+        // Генерация случайного числа в диапазоне от 0.0 до 100.0
         float attackType = Random.Range(0f, 100f);
 
         if (attackType <= 60f)
         {
-            BaseAttack();
+            BaseAttack(); // Обычный удар (60% вероятность)
         }
         else if (attackType <= 80f)
         {
-            StrongAttack();
+            StrongAttack(); // Сильный критический удар (20% вероятность)
         }
         else
         {
+            // Распределенная во времени огненная атака (20% вероятность)
             FireAttack(bossData.fireAttacks, bossData.fireDamage);
         }
     }

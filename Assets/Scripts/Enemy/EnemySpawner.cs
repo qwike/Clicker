@@ -43,7 +43,6 @@ public class EnemySpawner : MonoBehaviour
         float bossChance = (totalKills - 2500) * 0.0005f;
         bossChance = Mathf.Clamp(bossChance, 0f, 0.9f);
 
-        Debug.Log(totalKills);
         EnemyData selectedEnemy;
         Enemy e;
         if (Random.value < bossChance && PlayerPrefs.GetInt("isInfinityMode", 0) == 0)
